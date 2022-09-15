@@ -4,3 +4,52 @@ html,body {
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    height: 100vh;
+    background-color: rgb(220, 232, 240);
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0px 10px 15px -11px rgba(66, 68, 90, 1);
+}
+
+.nav-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center-links {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    list-style-type: none;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    color: #49a6e9;
+}
+
+#reddit {
+    color: #ff4500;
+}
+
+#youtube {
+    color: #c4302b;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
