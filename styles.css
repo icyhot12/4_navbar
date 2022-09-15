@@ -61,6 +61,15 @@ a {
     cursor: pointer;
 }
 
+#menu {
+    transition-duration: 2s;
+}
+
+#menu:hover {
+    transform: rotate(90deg);
+    transition-duration: 1s;
+}
+
 @media screen and (max-width:850px) {
     .nav-social-icons {
         display: none;
