@@ -53,3 +53,30 @@ a {
     text-decoration: none;
     color: black;
 }
+
+.div-small-menu {
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width:850px) {
+    .nav-social-icons {
+        display: none;
+    }
+}
+
+@media screen and (max-width:635px) {
+    .nav-center-links {
+        display: none;
+    }
+
+    .div-small-menu {
+        display: flex;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .nav-center-links {
+        flex-grow: 2;
+    }
+}
