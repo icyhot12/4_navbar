@@ -1,0 +1,1 @@
+const menuButton = document.querySelector('.div-small-menu');

@@ -55,6 +55,8 @@ a {
 }
 
 .div-small-menu {
+    background-color: white;
+    border: none;
     display: none;
     cursor: pointer;
 }
