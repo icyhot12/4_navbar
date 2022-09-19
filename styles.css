@@ -8,6 +8,8 @@ body {
 body {
   height: 100vh;
   background-color: rgb(220, 232, 240);
+  display: flex;
+  flex-direction: column;
 }
 
 nav {
@@ -63,8 +65,19 @@ a {
 }
 
 .menu-small-screens {
-  display: none;
+  height: 0;
+  overflow: hidden;
 }
+
+.size-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  flex-grow: 2;
+}
+
+/* RESPONSIVE DESIGN */
 
 @media screen and (max-width: 850px) {
   .nav-social-icons {
@@ -81,9 +94,12 @@ a {
     display: flex;
   }
 
-  .menu-small-screens {
+  .menu-small-screens-toggle {
     display: flex;
+    flex-direction: column;
+    height: 8.3rem;
     background-color: white;
+    transition: all 0.2s linear;
   }
 
   .center-links {
