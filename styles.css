@@ -67,7 +67,6 @@ a {
 .menu-small-screens {
   height: 0;
   overflow: hidden;
-  transition: all 0.3s linear;
 }
 
 .size-info {
@@ -96,9 +95,11 @@ a {
   }
 
   .menu-small-screens-toggle {
+    display: flex;
+    flex-direction: column;
     height: 8.3rem;
     background-color: white;
-    transition: all 1s linear;
+    transition: all 0.2s linear;
   }
 
   .center-links {
