@@ -65,15 +65,17 @@ a {
 }
 
 .menu-small-screens {
-  display: none;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s linear;
 }
 
 .size-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-self: center;
-    flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  flex-grow: 2;
 }
 
 /* RESPONSIVE DESIGN */
@@ -94,8 +96,9 @@ a {
   }
 
   .menu-small-screens-toggle {
-    display: flex;
+    height: 8.3rem;
     background-color: white;
+    transition: all 1s linear;
   }
 
   .center-links {

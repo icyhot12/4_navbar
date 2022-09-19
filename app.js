@@ -1,13 +1,18 @@
+// menu toggle
 const menuToggleButton = document.getElementById('menu');
 const smallMenu = document.querySelector('.menu-small-screens');
-const heightInfo = document.querySelector('.height');
-const widthInfo = document.querySelector('.width');
+
 
 function navbarToggle() {
     smallMenu.classList.toggle('menu-small-screens-toggle');
 }
 
 menuToggleButton.addEventListener('click', navbarToggle);
+
+// -----------------------
+// size function
+const heightInfo = document.querySelector('.height');
+const widthInfo = document.querySelector('.width');
 
 function sizeUpdate() {
     let height = Math.round(visualViewport.height);
